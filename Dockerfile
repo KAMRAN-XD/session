@@ -1,7 +1,9 @@
-FROM node:lts-buster
+FROM node:lts-bullseye
+
 RUN apt-get update
 RUN apt-get install -y ffmpeg imagemagick libwebp-dev
 RUN rm -rf /var/lib/apt/lists/*
+
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
