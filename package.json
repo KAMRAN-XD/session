@@ -6,7 +6,7 @@
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name khan-md",
     "stop": "pm2 stop khan-md",
-    "restart": "pm2 restart khan-md"
+    "restart": "pm2 restart kamran-xd"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "github:DybyTech/Baileys",
