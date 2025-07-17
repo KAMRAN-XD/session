@@ -4,9 +4,9 @@
   "description": "A multi functional whatsapp bot Web paircode.",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name kamran-xd",
-    "stop": "pm2 stop kamran-xd",
-    "restart": "pm2 restart kamran-xd"
+    "start": "pm2 start index.js --deep-monitoring --attach --name khan-md",
+    "stop": "pm2 stop khan-md",
+    "restart": "pm2 restart khan-md"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "github:DybyTech/Baileys",
@@ -20,6 +20,7 @@
     "path": "^0.12.7",
     "megajs": "1.1.7",
     "pm2": "^5.4.0",
-    "async-mutex": "0.4.1"
+    "async-mutex": "0.4.1",
+    "jimp": "^0.16.1"
   }
 }
